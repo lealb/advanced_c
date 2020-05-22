@@ -4,6 +4,5 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/c_cpp_properties.json
-scala/spark/target
-scala/spark/.settings
 build
+*.exe
