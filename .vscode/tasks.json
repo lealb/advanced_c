@@ -1,0 +1,57 @@
+{
+    "version": "2.0.0",
+    "command": "g++",
+    "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe",
+        "-I",
+        "D:/OpenCV/build/include",
+        "-I",
+        "D:/OpenCV/build/include/opencv2",
+        "-L",
+        "D:/OpenCV/build/x64/MinGW/lib",
+        "-l",
+        "opencv_core420",
+        "-l",
+        "opencv_imgproc420",
+        "-l",
+        "opencv_imgcodecs420",
+        "-l",
+        "opencv_video420",
+        "-l",
+        "opencv_ml420",
+        "-l",
+        "opencv_highgui420",
+        "-l",
+        "opencv_objdetect420",
+        "-l",
+        "opencv_flann420",
+        "-l",
+        "opencv_imgcodecs420",
+        "-l",
+        "opencv_photo420",
+        "-l",
+        "opencv_videoio420"
+    ],
+    "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": [
+            "relative",
+            "${workspaceRoot}"
+        ],
+        "pattern": {
+            "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "severity": 4,
+            "message": 5
+        }
+    },
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    }
+}
