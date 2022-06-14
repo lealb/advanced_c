@@ -3,9 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "D:/OpenCV/build/include",
-                "D:/OpenCV/build/include/opencv2"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -19,9 +17,7 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": "",
                 "path": [
-                    "${workspaceFolder}/**",  
-                    "D:/OpenCV/build/include",
-                    "D:/OpenCV/build/include/opencv2"
+                    "${workspaceFolder}/**"
                 ]
             }
         }
